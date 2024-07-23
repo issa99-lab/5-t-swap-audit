@@ -3,7 +3,7 @@ pragma solidity 0.8.20;
 
 import {Test, console} from "forge-std/Test.sol";
 import {PoolFactory} from "../../src/PoolFactory.sol";
-import {ERC20Mock} from "lib/node_modules/@openzeppelin/contracts/mocks/token/ERC20Mock.sol";
+import {ERC20Mock} from "lib/openzeppelin-contracts/contracts/mocks/token/ERC20Mock.sol";
 
 contract PoolFactoryTest is Test {
     PoolFactory factory;

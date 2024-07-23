@@ -3,8 +3,8 @@ pragma solidity 0.8.20;
 
 import {Test, console} from "forge-std/Test.sol";
 import {TSwapPool} from "../../src/PoolFactory.sol";
-import {ERC20Mock} from "lib/node_modules/@openzeppelin/contracts/mocks/token/ERC20Mock.sol";
-import {IERC20} from "lib/node_modules/@openzeppelin/contracts/interfaces/IERC20.sol";
+import {ERC20Mock} from "lib/openzeppelin-contracts/contracts/mocks/token/ERC20Mock.sol";
+import {IERC20} from "lib/openzeppelin-contracts/contracts/interfaces/IERC20.sol";
 
 contract TSwapPoolTest is Test {
     TSwapPool pool;
